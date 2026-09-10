@@ -11,6 +11,9 @@
     "import-legacy": "node scripts/import-legacy.mjs",
     "render": "node scripts/render.mjs",
     "score": "node scripts/score.mjs",
+    "corpus": "bash scripts/corpus.sh",
+    "agreement": "node scripts/agreement.mjs",
+    "judge": "node --env-file-if-exists=.env scripts/judge.mjs",
     "fleet": "node scripts/generate-fleet.mjs"
   },
   "dependencies": {

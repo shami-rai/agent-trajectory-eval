@@ -48,7 +48,7 @@ if (process.argv[1]?.endsWith('render.mjs')) {
   const di = args.indexOf('--dir');
   const dir = di > -1 ? args[di + 1] : 'runs/rendered';
   mkdirSync(dir, { recursive: true });
-  for (const f of args.filter((a, i) => a.endsWith('.jsonl') && i !== di + 1)) {
+  for (const f of args.filter((a, i) => a.endsWith('.jsonl') && (di === -1 || i !== di + 1))) {
     for (const line of readFileSync(f, 'utf8').split('\n').filter(Boolean)) {
       const run = JSON.parse(line);
       writeFileSync(join(dir, `${run.id}.txt`), render(run));

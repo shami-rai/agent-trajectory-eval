@@ -8,7 +8,7 @@ import { score } from '../src/eval/score.mjs';
 const args = process.argv.slice(2);
 const oi = args.indexOf('--out');
 const out = oi > -1 ? args[oi + 1] : 'results/scores.json';
-const files = args.filter((a, i) => a.endsWith('.jsonl') && i !== oi + 1);
+const files = args.filter((a, i) => a.endsWith('.jsonl') && (oi === -1 || i !== oi + 1));
 
 const runs = files.flatMap((f) => readFileSync(f, 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l)));
 const scores = runs.map(score);
