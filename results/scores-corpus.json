@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "c01",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 6,
+    "toolCalls": 19,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        10,
+        1,
+        4,
+        2,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": "AV3-030 could reach 500.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c02",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 6,
+    "toolCalls": 15,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        6,
+        2,
+        4,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": "AV3-044 could reach 1400.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c03",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 7,
+    "toolCalls": 17,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        10,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": "AV3-014 could reach 2400.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": "at most",
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c04",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 7,
+    "toolCalls": 21,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        7,
+        6,
+        2,
+        3,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": "AV3-001 could reach 200.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c05",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 7,
+    "toolCalls": 21,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": true,
+      "determinable_turn": 6,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        10,
+        2,
+        3,
+        2,
+        2,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": null,
+      "callsAfterDeterminable": 0,
+      "boundPhrase": "bound",
+      "boundThreshold": "max_hours 127 = 88 / 69.3 x 100",
+      "necessity": {
+        "successfulCalls": 21,
+        "individuallyUnnecessary": [
+          1,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          21
+        ],
+        "minimalSet": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          14,
+          15,
+          18,
+          19,
+          20
+        ]
+      }
+    }
+  },
+  {
+    "id": "c06",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 6,
+    "toolCalls": 17,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": true,
+      "determinable_turn": 4,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        6,
+        5,
+        3,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": null,
+      "callsAfterDeterminable": 1,
+      "boundPhrase": "bound",
+      "boundThreshold": null,
+      "necessity": {
+        "successfulCalls": 17,
+        "individuallyUnnecessary": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          17
+        ],
+        "minimalSet": [
+          2,
+          3,
+          4,
+          5,
+          9,
+          11,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  },
+  {
+    "id": "c07",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 6,
+    "toolCalls": 18,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": true,
+      "determinable_turn": 4,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        8,
+        4,
+        3,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": null,
+      "callsAfterDeterminable": 1,
+      "boundPhrase": "bounded",
+      "boundThreshold": null,
+      "necessity": {
+        "successfulCalls": 18,
+        "individuallyUnnecessary": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          10,
+          13,
+          18
+        ],
+        "minimalSet": [
+          2,
+          3,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    }
+  },
+  {
+    "id": "c08",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 12,
+    "toolCalls": 11,
+    "properties": {
+      "batched": false,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": "AV3-030 could reach 500.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c09",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 11,
+    "toolCalls": 10,
+    "properties": {
+      "batched": false,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": "IL4-026 could reach 90.0 at 100h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c10",
+    "env": "normal",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 19,
+    "toolCalls": 18,
+    "properties": {
+      "batched": false,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700"
+      ],
+      "proofGap": "AV3-030 could reach 500.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": "bounded",
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c11",
+    "env": "normal",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": false,
+    "compareCorrect": false,
+    "turns": 4,
+    "toolCalls": 3,
+    "properties": {
+      "batched": false,
+      "redundant": [
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": true,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700"
+      ],
+      "proofGap": "IL4-084 could reach 12700.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c12",
+    "env": "normal",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": false,
+    "compareCorrect": false,
+    "turns": 4,
+    "toolCalls": 3,
+    "properties": {
+      "batched": false,
+      "redundant": [
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": true,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700"
+      ],
+      "proofGap": "IL4-084 could reach 12700.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c13",
+    "env": "normal",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": false,
+    "compareCorrect": false,
+    "turns": 4,
+    "toolCalls": 3,
+    "properties": {
+      "batched": false,
+      "redundant": [
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": true,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700"
+      ],
+      "proofGap": "IL4-084 could reach 12700.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c14",
+    "env": "hidden",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 5,
+    "toolCalls": 14,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        6,
+        3,
+        3,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700"
+      ],
+      "proofGap": "AV3-044 could reach 1400.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c15",
+    "env": "hidden",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 5,
+    "toolCalls": 16,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": false,
+      "justified": true,
+      "determinable_turn": 4,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        6,
+        7,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700"
+      ],
+      "proofGap": null,
+      "callsAfterDeterminable": 0,
+      "boundPhrase": "ceiling",
+      "boundThreshold": "max_hours 35 = 24 / 69.3 x 100",
+      "necessity": {
+        "successfulCalls": 16,
+        "individuallyUnnecessary": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          15
+        ],
+        "minimalSet": [
+          2,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16
+        ]
+      }
+    }
+  },
+  {
+    "id": "c16",
+    "env": "flaky",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 8,
+    "toolCalls": 19,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        true,
+        null,
+        false,
+        null,
+        false,
+        false,
+        false,
+        null,
+        null,
+        true,
+        null,
+        null,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        null
+      ],
+      "error_recovered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        2,
+        2,
+        0
+      ],
+      "errors": [
+        {
+          "k": 2,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 4,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 8,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 9,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 11,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 12,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 19,
+          "recovered": false,
+          "how": "same tool"
+        }
+      ],
+      "unsupportedNumbers": [],
+      "proofGap": "AV3-044 could reach 1400.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c17",
+    "env": "flaky",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 8,
+    "toolCalls": 19,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        null,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        null,
+        false,
+        null,
+        false,
+        true,
+        false,
+        null,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        7,
+        5,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [
+        {
+          "k": 3,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 10,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 12,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 16,
+          "recovered": true,
+          "how": "retry"
+        }
+      ],
+      "unsupportedNumbers": [
+        "700",
+        "400"
+      ],
+      "proofGap": "AV3-030 could reach 500.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c18",
+    "env": "flaky",
+    "answerId": "AV3-007",
+    "compareId": "AV3-024",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 11,
+    "toolCalls": 29,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        null,
+        false,
+        false,
+        false,
+        null,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        null,
+        false,
+        null,
+        null,
+        false,
+        null,
+        false,
+        false,
+        null,
+        null,
+        null,
+        true,
+        false,
+        false,
+        null,
+        null,
+        false
+      ],
+      "error_recovered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": true,
+      "determinable_turn": 10,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        6,
+        6,
+        5,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [
+        {
+          "k": 2,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 6,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 13,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 15,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 16,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 18,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 21,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 22,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 23,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 27,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 28,
+          "recovered": true,
+          "how": "retry"
+        }
+      ],
+      "unsupportedNumbers": [],
+      "proofGap": null,
+      "callsAfterDeterminable": 0,
+      "boundPhrase": "bounds",
+      "boundThreshold": null,
+      "necessity": {
+        "successfulCalls": 18,
+        "individuallyUnnecessary": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          9,
+          12,
+          14,
+          17,
+          20,
+          24,
+          26
+        ],
+        "minimalSet": [
+          3,
+          4,
+          5,
+          8,
+          10,
+          11,
+          19,
+          25,
+          29
+        ]
+      }
+    }
+  },
+  {
+    "id": "c19",
+    "env": "misleading",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": false,
+    "compareCorrect": false,
+    "turns": 3,
+    "toolCalls": 3,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": true,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        2,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700",
+        "4.0"
+      ],
+      "proofGap": "IL4-084 could reach 12700.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c20",
+    "env": "misleading",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": false,
+    "compareCorrect": false,
+    "turns": 4,
+    "toolCalls": 5,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": true,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700",
+        "9"
+      ],
+      "proofGap": "IL4-084 could reach 12700.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": "ceiling",
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c21",
+    "env": "capped",
+    "answerId": null,
+    "compareId": null,
+    "correct": false,
+    "compareCorrect": false,
+    "turns": 3,
+    "toolCalls": 13,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "error_recovered": [],
+      "grounded": null,
+      "numbers_supported": null,
+      "shortcut": false,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        2,
+        10,
+        1
+      ],
+      "errors": [],
+      "unsupportedNumbers": null,
+      "proofGap": "no answer",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c22",
+    "env": "misleading",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": false,
+    "compareCorrect": false,
+    "turns": 3,
+    "toolCalls": 3,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": true,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        2,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [
+        "700"
+      ],
+      "proofGap": "an unseen InfusaLine 400 could reach 31400.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c23",
+    "env": "flaky",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": false,
+    "compareCorrect": false,
+    "turns": 6,
+    "toolCalls": 10,
+    "properties": {
+      "batched": true,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        null,
+        false,
+        null,
+        false,
+        false,
+        false,
+        null,
+        null,
+        false
+      ],
+      "error_recovered": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "grounded": true,
+      "numbers_supported": false,
+      "shortcut": true,
+      "justified": false,
+      "determinable_turn": null,
+      "bound_reasoning": false
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        5,
+        2,
+        1,
+        1,
+        0
+      ],
+      "errors": [
+        {
+          "k": 2,
+          "recovered": true,
+          "how": "retry"
+        },
+        {
+          "k": 4,
+          "recovered": true,
+          "how": "same tool"
+        },
+        {
+          "k": 8,
+          "recovered": false,
+          "how": "same tool"
+        },
+        {
+          "k": 9,
+          "recovered": true,
+          "how": "retry"
+        }
+      ],
+      "unsupportedNumbers": [
+        "700"
+      ],
+      "proofGap": "IL7-049 could reach 12200.0 at 1h",
+      "callsAfterDeterminable": 0,
+      "boundPhrase": null,
+      "boundThreshold": null,
+      "necessity": null
+    }
+  },
+  {
+    "id": "c24",
+    "env": "hidden",
+    "answerId": "IL7-032",
+    "compareId": "IL7-032",
+    "correct": true,
+    "compareCorrect": true,
+    "turns": 18,
+    "toolCalls": 17,
+    "properties": {
+      "batched": false,
+      "redundant": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unused": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "error_recovered": [],
+      "grounded": true,
+      "numbers_supported": true,
+      "shortcut": false,
+      "justified": true,
+      "determinable_turn": 17,
+      "bound_reasoning": true
+    },
+    "detail": {
+      "callsPerTurn": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "errors": [],
+      "unsupportedNumbers": [],
+      "proofGap": null,
+      "callsAfterDeterminable": 0,
+      "boundPhrase": "maximum possible",
+      "boundThreshold": null,
+      "necessity": {
+        "successfulCalls": 17,
+        "individuallyUnnecessary": [
+          1,
+          6,
+          7,
+          11,
+          13,
+          16
+        ],
+        "minimalSet": [
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17
+        ]
+      }
+    }
+  }
+]

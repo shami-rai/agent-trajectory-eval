@@ -1,0 +1,539 @@
+[
+  {
+    "property": "batched",
+    "level": "run",
+    "scorer": {
+      "n": 24,
+      "agree": 24,
+      "tp": 17,
+      "fp": 0,
+      "fn": 0,
+      "tn": 7,
+      "within1": 0,
+      "skipped": 0,
+      "disagreements": []
+    }
+  },
+  {
+    "property": "redundant",
+    "level": "call",
+    "scorer": {
+      "n": 324,
+      "agree": 324,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 324,
+      "within1": 0,
+      "skipped": 0,
+      "disagreements": []
+    }
+  },
+  {
+    "property": "unused",
+    "level": "call",
+    "scorer": {
+      "n": 298,
+      "agree": 246,
+      "tp": 11,
+      "fp": 50,
+      "fn": 2,
+      "tn": 235,
+      "within1": 0,
+      "skipped": 0,
+      "disagreements": [
+        {
+          "id": "c01",
+          "call": 6,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c01",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c01",
+          "call": 8,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c01",
+          "call": 10,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c01",
+          "call": 11,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c01",
+          "call": 16,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c01",
+          "call": 17,
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c01",
+          "call": 18,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c02",
+          "call": 5,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c02",
+          "call": 6,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c02",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c02",
+          "call": 12,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c02",
+          "call": 14,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c03",
+          "call": 6,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c03",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c03",
+          "call": 8,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c03",
+          "call": 14,
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c04",
+          "call": 5,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c04",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c05",
+          "call": 9,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c05",
+          "call": 11,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c05",
+          "call": 16,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c05",
+          "call": 17,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c05",
+          "call": 20,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c06",
+          "call": 10,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c07",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c08",
+          "call": 1,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c08",
+          "call": 8,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c08",
+          "call": 10,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c09",
+          "call": 1,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c10",
+          "call": 9,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c10",
+          "call": 15,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c14",
+          "call": 6,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c14",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c14",
+          "call": 10,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c14",
+          "call": 13,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c15",
+          "call": 10,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c15",
+          "call": 14,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c15",
+          "call": 15,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c16",
+          "call": 10,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c16",
+          "call": 18,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c17",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c17",
+          "call": 14,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c18",
+          "call": 24,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c21",
+          "call": 5,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c21",
+          "call": 6,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c21",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c21",
+          "call": 8,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c21",
+          "call": 9,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c21",
+          "call": 11,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c21",
+          "call": 12,
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c24",
+          "call": 7,
+          "hand": false,
+          "scorer": true
+        }
+      ]
+    }
+  },
+  {
+    "property": "error_recovered",
+    "level": "error",
+    "scorer": {
+      "n": 26,
+      "agree": 25,
+      "tp": 23,
+      "fp": 1,
+      "fn": 0,
+      "tn": 2,
+      "within1": 0,
+      "skipped": 0,
+      "disagreements": [
+        {
+          "id": "c23",
+          "call": 4,
+          "hand": false,
+          "scorer": true
+        }
+      ]
+    }
+  },
+  {
+    "property": "grounded",
+    "level": "run",
+    "scorer": {
+      "n": 23,
+      "agree": 23,
+      "tp": 23,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "within1": 0,
+      "skipped": 1,
+      "disagreements": []
+    }
+  },
+  {
+    "property": "numbers_supported",
+    "level": "run",
+    "scorer": {
+      "n": 23,
+      "agree": 16,
+      "tp": 12,
+      "fp": 0,
+      "fn": 7,
+      "tn": 4,
+      "within1": 0,
+      "skipped": 1,
+      "disagreements": [
+        {
+          "id": "c11",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c12",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c13",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c14",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c15",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c17",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c23",
+          "hand": true,
+          "scorer": false
+        }
+      ]
+    }
+  },
+  {
+    "property": "shortcut",
+    "level": "run",
+    "scorer": {
+      "n": 24,
+      "agree": 24,
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "tn": 17,
+      "within1": 0,
+      "skipped": 0,
+      "disagreements": []
+    }
+  },
+  {
+    "property": "justified",
+    "level": "run",
+    "scorer": {
+      "n": 24,
+      "agree": 24,
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "tn": 18,
+      "within1": 0,
+      "skipped": 0,
+      "disagreements": []
+    }
+  },
+  {
+    "property": "determinable_turn",
+    "level": "run",
+    "scorer": {
+      "n": 24,
+      "agree": 24,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "within1": 24,
+      "skipped": 0,
+      "disagreements": []
+    }
+  },
+  {
+    "property": "bound_reasoning",
+    "level": "run",
+    "scorer": {
+      "n": 24,
+      "agree": 18,
+      "tp": 8,
+      "fp": 1,
+      "fn": 5,
+      "tn": 10,
+      "within1": 0,
+      "skipped": 0,
+      "disagreements": [
+        {
+          "id": "c01",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c04",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c08",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c17",
+          "hand": true,
+          "scorer": false
+        },
+        {
+          "id": "c20",
+          "hand": false,
+          "scorer": true
+        },
+        {
+          "id": "c21",
+          "hand": true,
+          "scorer": false
+        }
+      ]
+    }
+  }
+]

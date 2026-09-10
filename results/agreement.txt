@@ -1,0 +1,80 @@
+| property | unit | scorer agreement | scorer detail |
+|---|---|---|---|
+| batched | run | 24/24 (100%) | hand+ 17, flagged 17, missed 0, false 0 |
+| redundant | call | 324/324 (100%) | hand+ 0, flagged 0, missed 0, false 0 |
+| unused | call | 246/298 (83%) | hand+ 13, flagged 61, missed 2, false 50 |
+| error_recovered | error | 25/26 (96%) | hand+ 23, flagged 24, missed 0, false 1 |
+| grounded | run | 23/23 (100%) | hand+ 23, flagged 23, missed 0, false 0 |
+| numbers_supported | run | 16/23 (70%) | hand+ 19, flagged 12, missed 7, false 0 |
+| shortcut | run | 24/24 (100%) | hand+ 7, flagged 7, missed 0, false 0 |
+| justified | run | 24/24 (100%) | hand+ 6, flagged 6, missed 0, false 0 |
+| determinable_turn | run | 24/24 (100%) | within one turn 24/24 |
+| bound_reasoning | run | 18/24 (75%) | hand+ 13, flagged 9, missed 5, false 1 |
+
+Disagreements (scorer):
+  unused             {"id":"c01","call":6,"hand":false,"scorer":true}
+  unused             {"id":"c01","call":7,"hand":false,"scorer":true}
+  unused             {"id":"c01","call":8,"hand":false,"scorer":true}
+  unused             {"id":"c01","call":10,"hand":false,"scorer":true}
+  unused             {"id":"c01","call":11,"hand":false,"scorer":true}
+  unused             {"id":"c01","call":16,"hand":false,"scorer":true}
+  unused             {"id":"c01","call":17,"hand":true,"scorer":false}
+  unused             {"id":"c01","call":18,"hand":false,"scorer":true}
+  unused             {"id":"c02","call":5,"hand":false,"scorer":true}
+  unused             {"id":"c02","call":6,"hand":false,"scorer":true}
+  unused             {"id":"c02","call":7,"hand":false,"scorer":true}
+  unused             {"id":"c02","call":12,"hand":false,"scorer":true}
+  unused             {"id":"c02","call":14,"hand":false,"scorer":true}
+  unused             {"id":"c03","call":6,"hand":false,"scorer":true}
+  unused             {"id":"c03","call":7,"hand":false,"scorer":true}
+  unused             {"id":"c03","call":8,"hand":false,"scorer":true}
+  unused             {"id":"c03","call":14,"hand":true,"scorer":false}
+  unused             {"id":"c04","call":5,"hand":false,"scorer":true}
+  unused             {"id":"c04","call":7,"hand":false,"scorer":true}
+  unused             {"id":"c05","call":9,"hand":false,"scorer":true}
+  unused             {"id":"c05","call":11,"hand":false,"scorer":true}
+  unused             {"id":"c05","call":16,"hand":false,"scorer":true}
+  unused             {"id":"c05","call":17,"hand":false,"scorer":true}
+  unused             {"id":"c05","call":20,"hand":false,"scorer":true}
+  unused             {"id":"c06","call":10,"hand":false,"scorer":true}
+  unused             {"id":"c07","call":7,"hand":false,"scorer":true}
+  unused             {"id":"c08","call":1,"hand":false,"scorer":true}
+  unused             {"id":"c08","call":8,"hand":false,"scorer":true}
+  unused             {"id":"c08","call":10,"hand":false,"scorer":true}
+  unused             {"id":"c09","call":1,"hand":false,"scorer":true}
+  unused             {"id":"c10","call":9,"hand":false,"scorer":true}
+  unused             {"id":"c10","call":15,"hand":false,"scorer":true}
+  unused             {"id":"c14","call":6,"hand":false,"scorer":true}
+  unused             {"id":"c14","call":7,"hand":false,"scorer":true}
+  unused             {"id":"c14","call":10,"hand":false,"scorer":true}
+  unused             {"id":"c14","call":13,"hand":false,"scorer":true}
+  unused             {"id":"c15","call":10,"hand":false,"scorer":true}
+  unused             {"id":"c15","call":14,"hand":false,"scorer":true}
+  unused             {"id":"c15","call":15,"hand":false,"scorer":true}
+  unused             {"id":"c16","call":10,"hand":false,"scorer":true}
+  unused             {"id":"c16","call":18,"hand":false,"scorer":true}
+  unused             {"id":"c17","call":7,"hand":false,"scorer":true}
+  unused             {"id":"c17","call":14,"hand":false,"scorer":true}
+  unused             {"id":"c18","call":24,"hand":false,"scorer":true}
+  unused             {"id":"c21","call":5,"hand":false,"scorer":true}
+  unused             {"id":"c21","call":6,"hand":false,"scorer":true}
+  unused             {"id":"c21","call":7,"hand":false,"scorer":true}
+  unused             {"id":"c21","call":8,"hand":false,"scorer":true}
+  unused             {"id":"c21","call":9,"hand":false,"scorer":true}
+  unused             {"id":"c21","call":11,"hand":false,"scorer":true}
+  unused             {"id":"c21","call":12,"hand":false,"scorer":true}
+  unused             {"id":"c24","call":7,"hand":false,"scorer":true}
+  error_recovered    {"id":"c23","call":4,"hand":false,"scorer":true}
+  numbers_supported  {"id":"c11","hand":true,"scorer":false}
+  numbers_supported  {"id":"c12","hand":true,"scorer":false}
+  numbers_supported  {"id":"c13","hand":true,"scorer":false}
+  numbers_supported  {"id":"c14","hand":true,"scorer":false}
+  numbers_supported  {"id":"c15","hand":true,"scorer":false}
+  numbers_supported  {"id":"c17","hand":true,"scorer":false}
+  numbers_supported  {"id":"c23","hand":true,"scorer":false}
+  bound_reasoning    {"id":"c01","hand":true,"scorer":false}
+  bound_reasoning    {"id":"c04","hand":true,"scorer":false}
+  bound_reasoning    {"id":"c08","hand":true,"scorer":false}
+  bound_reasoning    {"id":"c17","hand":true,"scorer":false}
+  bound_reasoning    {"id":"c20","hand":false,"scorer":true}
+  bound_reasoning    {"id":"c21","hand":true,"scorer":false}
