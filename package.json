@@ -1,0 +1,14 @@
+{
+  "name": "agent-trajectory-eval",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scoring the path an agent took rather than just its final answer: redundant calls, recovery from errors, dead ends. Final-answer accuracy hides all of it.",
+  "scripts": {
+    "smoke": "node --env-file-if-exists=.env scripts/smoke.mjs",
+    "fleet": "node scripts/generate-fleet.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.125.0"
+  }
+}
