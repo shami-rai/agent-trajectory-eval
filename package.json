@@ -6,6 +6,11 @@
   "description": "Scoring the path an agent took rather than just its final answer: redundant calls, recovery from errors, dead ends. Final-answer accuracy hides all of it.",
   "scripts": {
     "smoke": "node --env-file-if-exists=.env scripts/smoke.mjs",
+    "agent": "node --env-file-if-exists=.env scripts/run.mjs",
+    "spend": "node scripts/spend.mjs",
+    "import-legacy": "node scripts/import-legacy.mjs",
+    "render": "node scripts/render.mjs",
+    "score": "node scripts/score.mjs",
     "fleet": "node scripts/generate-fleet.mjs"
   },
   "dependencies": {

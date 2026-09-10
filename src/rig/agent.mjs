@@ -125,7 +125,26 @@ export async function runAgent({
       .map((b) => b.text)
       .join('\n')
       .trim();
-    const entry = { turn, context, output: u.output_tokens, stop_reason: response.stop_reason, text, calls: [] };
+    // Thinking summaries, when the caller asked for them with
+    // extra: { thinking: { type: 'adaptive', display: 'summarized' } }.
+    // Kept because trajectory scoring needs the reasoning between calls: at low
+    // effort the model writes almost no visible text between tool calls, so
+    // without this the trace shows what was called but never why. It is a
+    // summary, not the raw reasoning, and it is empty on turns with no thinking.
+    const thinking = response.content
+      .filter((b) => b.type === 'thinking')
+      .map((b) => b.thinking)
+      .join('\n')
+      .trim();
+    const entry = {
+      turn,
+      context,
+      output: u.output_tokens,
+      stop_reason: response.stop_reason,
+      text,
+      ...(thinking ? { thinking } : {}),
+      calls: [],
+    };
     trace.push(entry);
 
     if (response.stop_reason !== 'tool_use') {

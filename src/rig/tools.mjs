@@ -25,27 +25,6 @@ export const MAX_LIMIT = 10;
 const MODELS = [...new Set(devices.map((d) => d.model))];
 const SITES = [...new Set(devices.map((d) => d.site))].sort();
 
-function applyFilters({ model, site, firmware, min_hours, max_hours }) {
-  return devices.filter(
-    (d) =>
-      (model === undefined || d.model === model) &&
-      (site === undefined || d.site === site) &&
-      (firmware === undefined || d.firmware === firmware) &&
-      (min_hours === undefined || d.operating_hours >= min_hours) &&
-      (max_hours === undefined || d.operating_hours < max_hours),
-  );
-}
-
-function findDevice(id) {
-  const key = String(id).trim().toLowerCase();
-  const exact = devices.find((d) => d.device_id.toLowerCase() === key);
-  if (exact) return exact;
-  const loose = key.replace(/[^a-z0-9]/g, '');
-  const near = devices.filter((d) => d.device_id.toLowerCase().replace(/[^a-z0-9]/g, '') === loose);
-  if (near.length === 1) return near[0];
-  throw new Error(`No device with id "${id}" in this fleet. Ids look like IL4-007 or AV3-024.`);
-}
-
 const FILTER_PROPS = {
   model: { type: 'string', enum: MODELS },
   site: { type: 'string', enum: SITES, description: 'Facility code.' },
@@ -95,29 +74,61 @@ export const toolDefs = [
   },
 ];
 
-export const handlers = {
-  count_devices: (input) => ({ count: applyFilters(input).length }),
+// The handlers are built over a device list rather than closing over the fleet
+// directly, so an experiment can show the same three tools a different world.
+// agent-trajectory-eval uses this to remove one device entirely (a sabotaged
+// environment). With the default argument the behaviour is exactly the
+// loop-engineering tools.
+export function makeTools(world = devices) {
+  function applyFilters({ model, site, firmware, min_hours, max_hours }) {
+    return world.filter(
+      (d) =>
+        (model === undefined || d.model === model) &&
+        (site === undefined || d.site === site) &&
+        (firmware === undefined || d.firmware === firmware) &&
+        (min_hours === undefined || d.operating_hours >= min_hours) &&
+        (max_hours === undefined || d.operating_hours < max_hours),
+    );
+  }
 
-  top_devices: ({ field, limit = 5, ...filters }) => {
-    if (!FIELDS.includes(field)) {
-      throw new Error(`Cannot rank by "${field}". Rankable fields are: ${FIELDS.join(', ')}.`);
-    }
-    if (!Number.isInteger(limit) || limit < 1 || limit > MAX_LIMIT) {
-      throw new Error(`limit must be an integer from 1 to ${MAX_LIMIT}, got ${limit}.`);
-    }
-    const matching = applyFilters(filters);
-    const rows = [...matching]
-      .sort((a, b) => b[field] - a[field])
-      .slice(0, limit)
-      .map((d) => ({ device_id: d.device_id, model: d.model, [field]: d[field] }));
-    return { total_matching: matching.length, returned: rows.length, devices: rows };
-  },
+  function findDevice(id) {
+    const key = String(id).trim().toLowerCase();
+    const exact = world.find((d) => d.device_id.toLowerCase() === key);
+    if (exact) return exact;
+    const loose = key.replace(/[^a-z0-9]/g, '');
+    const near = world.filter((d) => d.device_id.toLowerCase().replace(/[^a-z0-9]/g, '') === loose);
+    if (near.length === 1) return near[0];
+    throw new Error(`No device with id "${id}" in this fleet. Ids look like IL4-007 or AV3-024.`);
+  }
 
-  get_device: ({ device_id }) => findDevice(device_id),
-};
+  const handlers = {
+    count_devices: (input) => ({ count: applyFilters(input).length }),
 
-export function runTool(name, input) {
-  const handler = handlers[name];
-  if (!handler) throw new Error(`No such tool: ${name}.`);
-  return handler(input ?? {});
+    top_devices: ({ field, limit = 5, ...filters }) => {
+      if (!FIELDS.includes(field)) {
+        throw new Error(`Cannot rank by "${field}". Rankable fields are: ${FIELDS.join(', ')}.`);
+      }
+      if (!Number.isInteger(limit) || limit < 1 || limit > MAX_LIMIT) {
+        throw new Error(`limit must be an integer from 1 to ${MAX_LIMIT}, got ${limit}.`);
+      }
+      const matching = applyFilters(filters);
+      const rows = [...matching]
+        .sort((a, b) => b[field] - a[field])
+        .slice(0, limit)
+        .map((d) => ({ device_id: d.device_id, model: d.model, [field]: d[field] }));
+      return { total_matching: matching.length, returned: rows.length, devices: rows };
+    },
+
+    get_device: ({ device_id }) => findDevice(device_id),
+  };
+
+  function runTool(name, input) {
+    const handler = handlers[name];
+    if (!handler) throw new Error(`No such tool: ${name}.`);
+    return handler(input ?? {});
+  }
+
+  return { handlers, runTool };
 }
+
+export const { handlers, runTool } = makeTools(devices);
