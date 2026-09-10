@@ -1,0 +1,124 @@
+c01 normal claude-opus-5 low parallel
+stop end_turn | turns 6 | calls 19 | errors 0 | peak ctx 5556
+FINAL: AV3-007 vs AV3-024
+cost $0.0799 | spend before $0.0654 | after $0.1453
+
+c02 normal claude-opus-5 low parallel
+stop end_turn | turns 6 | calls 15 | errors 0 | peak ctx 4973
+FINAL: AV3-007 vs AV3-024
+cost $0.0684 | spend before $0.1453 | after $0.2137
+
+c03 normal claude-opus-5 low parallel
+stop end_turn | turns 7 | calls 17 | errors 0 | peak ctx 5324
+FINAL: AV3-007 vs AV3-024
+cost $0.0757 | spend before $0.2137 | after $0.2894
+
+c04 normal claude-opus-5 medium parallel
+stop end_turn | turns 7 | calls 21 | errors 0 | peak ctx 6955
+FINAL: AV3-007 vs AV3-024
+cost $0.1324 | spend before $0.2894 | after $0.4218
+
+c05 normal claude-opus-5 medium parallel
+stop end_turn | turns 7 | calls 21 | errors 0 | peak ctx 5960
+FINAL: AV3-007 vs AV3-024
+cost $0.1007 | spend before $0.4218 | after $0.5224
+
+c06 normal claude-opus-5 high parallel
+stop end_turn | turns 6 | calls 17 | errors 0 | peak ctx 6559
+FINAL: AV3-007 vs AV3-024
+cost $0.1287 | spend before $0.5224 | after $0.6511
+
+c07 normal claude-opus-5 high parallel
+stop end_turn | turns 6 | calls 18 | errors 0 | peak ctx 7401
+FINAL: AV3-007 vs AV3-024
+cost $0.1427 | spend before $0.6511 | after $0.7938
+
+c08 normal claude-opus-5 low serial
+stop end_turn | turns 12 | calls 11 | errors 0 | peak ctx 4062
+FINAL: AV3-007 vs AV3-024
+cost $0.0672 | spend before $0.7938 | after $0.8611
+
+c09 normal claude-opus-5 low serial
+stop end_turn | turns 11 | calls 10 | errors 0 | peak ctx 3731
+FINAL: AV3-007 vs AV3-024
+cost $0.0586 | spend before $0.8611 | after $0.9196
+
+c10 normal claude-opus-5 high serial
+stop end_turn | turns 19 | calls 18 | errors 0 | peak ctx 5639
+FINAL: AV3-007 vs AV3-024
+cost $0.1358 | spend before $0.9196 | after $1.0554
+
+c11 normal claude-haiku-4-5  parallel
+stop end_turn | turns 4 | calls 3 | errors 0 | peak ctx 2283
+FINAL: IL7-032 vs IL7-032
+cost $0.0106 | spend before $1.0554 | after $1.0660
+
+c12 normal claude-haiku-4-5  parallel
+stop end_turn | turns 4 | calls 3 | errors 0 | peak ctx 2240
+FINAL: IL7-032 vs IL7-032
+cost $0.0108 | spend before $1.0660 | after $1.0768
+
+c13 normal claude-haiku-4-5  serial
+stop end_turn | turns 4 | calls 3 | errors 0 | peak ctx 1948
+FINAL: IL7-032 vs IL7-032
+cost $0.0092 | spend before $1.0768 | after $1.0860
+
+c14 hidden claude-opus-5 low parallel
+stop end_turn | turns 5 | calls 14 | errors 0 | peak ctx 4892
+FINAL: IL7-032 vs IL7-032
+cost $0.0663 | spend before $1.0860 | after $1.1523
+
+c15 hidden claude-opus-5 high parallel
+stop end_turn | turns 5 | calls 16 | errors 0 | peak ctx 7467
+FINAL: IL7-032 vs IL7-032
+cost $0.1466 | spend before $1.1523 | after $1.2989
+
+c16 flaky claude-opus-5 low parallel
+stop end_turn | turns 8 | calls 19 | errors 7 | peak ctx 5061
+FINAL: AV3-007 vs AV3-024
+cost $0.0777 | spend before $1.2989 | after $1.3766
+
+c17 flaky claude-opus-5 medium parallel
+stop end_turn | turns 8 | calls 19 | errors 4 | peak ctx 6180
+FINAL: AV3-007 vs AV3-024
+cost $0.1197 | spend before $1.3766 | after $1.4962
+
+c18 flaky claude-opus-5 high parallel
+stop end_turn | turns 11 | calls 29 | errors 11 | peak ctx 9056
+FINAL: AV3-007 vs AV3-024
+cost $0.1966 | spend before $1.4962 | after $1.6928
+
+c19 misleading claude-opus-5 low parallel
+stop end_turn | turns 3 | calls 3 | errors 0 | peak ctx 2124
+FINAL: IL7-032 vs IL7-032
+cost $0.0254 | spend before $1.6928 | after $1.7182
+
+c20 misleading claude-opus-5 high parallel
+stop end_turn | turns 4 | calls 5 | errors 0 | peak ctx 2602
+FINAL: IL7-032 vs IL7-032
+cost $0.0505 | spend before $1.7182 | after $1.7687
+
+c21 capped claude-opus-5 low parallel
+stop max_turns | turns 3 | calls 13 | errors 0 | peak ctx 3627
+(no FINAL line)
+cost $0.0411 | spend before $1.7687 | after $1.8098
+
+c22 misleading claude-haiku-4-5  parallel
+stop end_turn | turns 3 | calls 3 | errors 0 | peak ctx 1890
+FINAL: IL7-032 vs IL7-032
+cost $0.0072 | spend before $1.8098 | after $1.8170
+
+c23 flaky claude-haiku-4-5  parallel
+stop end_turn | turns 6 | calls 10 | errors 4 | peak ctx 3208
+FINAL: IL7-032 vs IL7-032
+cost $0.0204 | spend before $1.8170 | after $1.8373
+
+c24 hidden claude-opus-5 medium serial
+stop end_turn | turns 18 | calls 17 | errors 0 | peak ctx 5703
+FINAL: IL7-032 vs IL7-032
+cost $0.1256 | spend before $1.8373 | after $1.9630
+
+corpus.jsonl              24 records  $1.8976
+dev.jsonl                  1 records  $0.0654
+legacy.jsonl               0 records  $0.0000
+total $1.9630 of $8
